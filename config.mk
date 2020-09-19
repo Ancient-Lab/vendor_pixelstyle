@@ -138,7 +138,13 @@ PRODUCT_PACKAGES += \
     IconPackAnciWibuAndroid \
     IconPackAnciWibuPixelLauncher \
     IconPackAnciWibuPixelThemePicker \
-    IconPackAnciWibuSystemUI
+    IconPackAnciWibuSystemUI \
+    Ios \
+    IosKiri \
+    Memek \
+    Kotak \
+    Kotak2 \
+    Mobil
 
 # Overlay packages
 ifeq ($(ANCIENT_NOGAPPS), true)

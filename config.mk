@@ -134,7 +134,13 @@ PRODUCT_PACKAGES += \
     IconPackAnci5PixelLauncher \
     IconPackAnci5PixelThemePicker \
     IconPackAnci5SystemUI \
-    Vshape
+    Vshape \
+    Ios \
+    IosKiri \
+    Memek \
+    Kotak \
+    Kotak2 \
+    Mobil
 
 # Overlay packages
 ifeq ($(ANCIENT_NOGAPPS), true)

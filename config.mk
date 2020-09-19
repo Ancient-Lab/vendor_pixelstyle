@@ -140,7 +140,52 @@ PRODUCT_PACKAGES += \
     Memek \
     Kotak \
     Kotak2 \
-    Mobil
+    Mobil \
+    Analog11 \
+    Analog12 \
+    Analog13 \
+    Analog14 \
+    Analog15 \
+    LottieUIDefault \
+    LottieUIHideAll \
+    LottieUIOpacy50 \
+    LottieUIOpacy70 \
+    NavbarDefault \
+    NavbarFive \
+    NavbarFour \
+    NavbarOne \
+    NavbarThree \
+    NavbarTwo \
+    QSClock17 \
+    QSClock18 \
+    QSClock19 \
+    QSClock20 \
+    QSClock21 \
+    QSMerge10 \
+    QSMerge6 \
+    QSMerge7 \
+    QSMerge8 \
+    QSMerge9 \
+    QSMergeFive \
+    QSMergeFour \
+    QSMergeOne \
+    QSMergeThree \
+    QSMergeTwo \
+    QSTileAncient12 \
+    QSTileAncient13 \
+    QSTileAncient14 \
+    QSTileAncient15 \
+    QSTileAncient16 \
+    SettingAncient17 \
+    SettingAncient18 \
+    SettingAncient19 \
+    SettingAncient20 \
+    SettingAncient21 \
+    SettingLottie \
+    SettingLottieGone \
+    SettingLottieGone1 \
+    SettingLottieGone2 \
+    Statusbar86px
 
 # Overlay packages
 ifeq ($(ANCIENT_NOGAPPS), true)

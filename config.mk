@@ -346,6 +346,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/fonts,$(TARG
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
+ifneq ($(ANCIENT_NOGAPPS), true)
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.bs_theme=true \
@@ -381,6 +382,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.clientidbase=android-google \
     ro.error.receiver.system.apps=com.google.android.gms \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
+endif
 
 # Include product overlays
 PRODUCT_PACKAGE_OVERLAYS += \
